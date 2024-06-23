@@ -1,4 +1,4 @@
 URL de acceso de la página hosteada en Vercel :
-https://vercel.com/mlmedina92s-projects/web1tudai
+https://web1tudai.vercel.app/
 URL de acceso al servicio REST de mockApi: 
 https://666f71c6f1e1da2be522cfa6.mockapi.io/userRequest/userRequest
