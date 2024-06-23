@@ -30,6 +30,8 @@
 
 body {
   font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 
 p {
@@ -244,7 +246,7 @@ a:active {
 }
 
 .slogan {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 500;
   margin: 1.5% 0;
 }
@@ -258,7 +260,7 @@ a:active {
   letter-spacing: 1px;
   background-color: #FDB300;
   border: none;
-  padding: 20px 40px 20px 40px;
+  padding: 20px 20px;
 }
 
 .buttonBudget:hover {
@@ -305,6 +307,7 @@ p:nth-child(3) {
 
 .presentation img {
   width: 100%;
+  object-fit: cover;
 }
 
 .image-presentation {
