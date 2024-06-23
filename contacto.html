@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description"
+        content="Tendidos de líneas eléctricas de baja y media tensión. Alquiler de grúas e hidrogrúas en Tandil.">
+    <meta name="keywords"
+        content="grúas, tendidos eléctricos, servicio eléctrico, hidrogrúas, Tandil, pilares de luz monofaásico, pilares trifásicos, tato medina Tandil">
+    <meta name="author" content="Lis Medina, Lautaro Lopez Roth">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico.png">
+    <title>Contacto | Tato y José Medina S.R.L</title>
+    <!-- Links externos -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- libreria de iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <!-- nav desktop -->
+            <ul class="nav-conteiner-desktop">
+                <li>
+                    <a href="./index.html"><img src="./images/logo.png" alt="logo" loading="lazy" height="67"
+                            width="75"></a>
+                </li>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./table.html">Solicitá</a></li>
+                <button class="icon-btn btn-mode-change"><i class="fas fa-sun"></i></button>
+            </ul>
+            <!-- nav mobile -->
+            <div class="nav-conteiner-mobile">
+                <ul class="nav-first-container">
+                    <li>
+                        <a href="./index.html"><img src="./images/logo.png" alt="logo" loading="lazy" height="67" width="75"></a>
+                    </li>
+                    <button class="icon-btn navbarBurger">
+                        <i class="fas fa-bars burgerIcon"></i>
+                    </button>
+                </ul>
+                <ul class="hidden mobile-menu-desplegable">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./table.html">Solicitá</a></li>
+                    <li>
+                        <button class="icon-btn btn-mode-change-hidden"><i class="fas fa-sun"></i></button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main class="main">
+        <h1 class="title-form">Formulario de Contacto</h1>
+        <div class="form-container">
+            <form class="form-contact" id="form" action="mailto:lm30540@gmail.com">
+                <label for="name">Nombre:</label>
+                <input type="text" name="name" id="name" placeholder="Nombre" required autocomplete="off">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Email" required autocomplete="off">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                <label for="input-captcha">Captcha:</label>
+                <input type="text" id="input-captcha" name="input-captcha">
+                <h6>Respete minúsculas y mayúsculas</h6>
+                <div id="captcha-div">
+                    <p class="captcha-text" id="captcha-text"></p>
+                </div>
+                <button class="btn-re-captcha" id="reCaptcha"><i class="fas fa-sync-alt"></i></button>
+                <h5 id="result-captcha"></h5>
+                <button type="submit" class="btn-send" id="btn-submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <footer id="footer" class="footer ">
+        <img src="./images/logo.png" alt="logo" loading="lazy" width="150" height="134">
+        <ul class="links-footer">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+        <ul class="data-footer">
+            <li>Dirección</li>
+            <li>Rosalía de Castro 1272 - Tandil, Bs. As.</li>
+            <li>2494-496102 - Por servicios</li>
+            <li>2494-026594 - Administracion</li>
+        </ul>
+        <ul class="redes">
+            <li>
+                <a href="mailto:tatomedinaservicioselectricos@hotmail.com" class="social-icon icon" target="_blank"><i
+                        class="fas fa-envelope"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/tatomedinaservicios/" class="social-icon icon" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+            </li>
+            <li><a href="https://www.facebook.com/tatoyjose.medina" class="social-icon icon" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <script src="./js/darkmode.js" type="module"></script>
+    <script src="./js/captcha.js" type="application/javascript"></script>
+    <script src="./js/menuresponsive.js" type="module"></script>
+</body>
+
+</html>
